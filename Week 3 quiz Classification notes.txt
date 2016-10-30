@@ -1,0 +1,79 @@
+q1
+the simple threshold classifier for sentiment analysis described in the video (check all that apply):
+
+TRUE : Must have pre-defined positive and negative attributes
+
+TRUE : Must either count attributes equally or pre-define weights on attributes
+
+FALSE : Defines a possibly non-linear decision boundary
+
+---------------------------------------------------------
+q2
+
+For a linear classifier classifying between “positive” and “negative” sentiment in a review x, Score(x) = 0 implies (check all that apply):
+
+FALSE : The review is very clearly “negative”
+
+TRUE : We are uncertain whether the review is “positive” or “negative”
+
+FALSE : We need to retrain our classifier because an error has occurred
+
+NB: score of zero indicates the classifier was not able to classify as either positive or negative. uncertainty remains.
+
+------------------------------------------------------------
+
+q3
+
+For which of the following datasets would a linear classifier perform perfectly?
+
+ANSWER is the graph which allows classifier to separate with 100% accuracy with a straight line.
+
+-----------------------------------------------------------
+
+q4
+
+True or false: High classification accuracy always indicates a good classifier.
+
+FALSE : True
+
+TRUE : False
+
+Answer is 'false' because high classification accuracy can be the result of overfitting. An overfitted model can result in larger errors when new data considered.
+
+-------------------------------------------------------------
+
+q5
+True or false: For a classifier classifying between 5 classes, there always exists a classifier with accuracy greater than 0.18.
+
+True
+
+False
+
+minimum accuracy classifier is the coin flip (random choices), so minimum classifier accuracy is 1/k where k= number of classes.
+thus minimum accuracy classifier will be 0.2
+
+----------------------------------------------------------------
+q6
+
+True or false: A false negative is always worse than a false positive.
+
+True
+
+False
+
+Ans: FALSE. Depends on the consequences of false-negative/false-positive.
+ie: spam filter: false positive results in real email detected as SPAM and sent to spam folder. This is BAD.
+Medical tests - if test does not detect life threatening disease, then patient may die due to no treatement.
+
+---------------------------------------------------------------------
+q7
+Which of the following statements are true? (Check all that apply)
+
+TRUE : Test error tends to decrease with more training data until a point, and then does not change (i.e., curve flattens out)
+
+FALSE : Test error always goes to 0 with an unboundedly large training dataset
+
+FALSE : Test error is never a function of the amount of training data
+
+
+---------------------------------------------------------------------
