@@ -1,0 +1,51 @@
+term frequency - inverse document frequency (tf-idf)
+
+https://en.wikipedia.org/wiki/Tf%E2%80%93idf
+
+inverse document frequency
+log (  # of docs / (1+# of docs using word) )
+
+normalize vecotr = sqrt(sum of squares of vector elements)
+
+common words 'the', 'player', 'goal'
+rare words 'futbol', 'messi'
+
+rare word - infrequent in corpus
+
+
+bag of words model - different documents assessed as similar if have same words in content.
+- ignores order of words
+- counts frequency of word occurance.
+
+long documents create a larger count of similar words. not a good example of similarity.
+
+important word
+- tradeoff between local frequency and global rarity.
+
+
+rare words upweighted, common words downweighted.
+
+
+find next document
+- loop thru list of documents, calc similarity 
+- if similarity > best_similarity_so_far then best_similarity_so_far=similarity
+- repeat until all docs evaluated.
+- return doc with best similarity.
+
+
+clustering
+- assess documents as vectors
+- unsupervised learning task
+
+k-means clustering
+
+
+
+voronoi tessallation
+
+https://en.wikipedia.org/wiki/Centroidal_Voronoi_tessellation
+https://en.wikipedia.org/wiki/Voronoi_diagram
+
+
+
+
