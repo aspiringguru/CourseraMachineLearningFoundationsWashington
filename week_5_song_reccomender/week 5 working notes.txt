@@ -1,0 +1,15 @@
+Cold start problem
+
+Matrix Factorization Model
+
+which algorythm is best?
+
+for a given precision we want max recall.
+
+plot precision on y axis, recall on horizontal axis/
+area under the curve = AUC
+when comparing we want curve with largest AUC.
+
+
+Suppose a computer program for recognizing dogs in scenes from a video identifies 7 dogs in a scene containing 9 dogs and some cats. If 4 of the identifications are correct, but 3 are actually cats, the program's precision is 4/7 while its recall is 4/9.
+
