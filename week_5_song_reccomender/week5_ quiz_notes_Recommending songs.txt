@@ -1,4 +1,4 @@
-Recommending songs
+﻿Recommending songs
 
 4 questions
 1
@@ -10,11 +10,12 @@ Kanye West
 
 Foo Fighters
 
-Taylor Swift
+ANSWER = Taylor Swift
 
 Lady GaGa
 1
 point
+----------------------------------------------------------------------------------------------------------------
 2. 
 Which of the artists below is the most popular artist, the one with highest total listen_count, in the data set?
 
@@ -22,15 +23,16 @@ Taylor Swift
 
 Kings of Leon
 
-Coldplay
+ANSWER : Coldplay
 
 Lady GaGa
 1
 point
+----------------------------------------------------------------------------------------------------------------
 3. 
 Which of the artists below is the least popular artist, the one with smallest total listen_count, in the data set?
 
-William Tabbert
+ANSWER : William Tabbert
 
 Velvet Underground & Nico
 
@@ -39,6 +41,7 @@ Kanye West
 The Cool Kids
 1
 point
+----------------------------------------------------------------------------------------------------------------
 4. 
 Using the first 10,000 unique users only in the test data, use the personalized_model learned on the training data to recommend 1 song to each user. What’s the most recommended song?
 

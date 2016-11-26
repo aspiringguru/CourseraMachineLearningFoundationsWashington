@@ -1,0 +1,129 @@
+
+
+Deep Learning
+
+6 questions
+------------------------------------------------------------------------------
+1
+point
+1. 
+Which of the following statements are true? (Check all that apply)
+
+FALSE : A - Linear classifiers are never useful, because they cannot represent XOR.
+
+FALSE : B - Linear classifiers are useful, because, with enough data, they can represent anything.
+
+TRUE : C - Having good non-linear features can allow us to learn very accurate linear classifiers.
+
+D - none of the above
+------------------------------------------------
+lecture 'What is a visual product recommender?'
+
+Attempt 1, A-False, B-False, C-True, D-False  = WRONG
+Attempt 2, A =FALSE, B=FALSe, C=FALSE, D=TRUE = WRONG
+
+1
+point
+------------------------------------------------------------------------------
+refer lecture 'Learning very non-linear features with neural networks' @ 6'10"
+Linear Classifier Cannot represent XOR
+
+
+------------------------------------------------------------------------------
+2. 
+A simple linear classifier can represent which of the following functions? (Check all that apply)
+
+Hint: If you are stuck, see https://www.coursera.org/learn/ml-foundations/module/nqC1t/discussions/AAIUurrtEeWGphLhfbPAyQ
+
+A - x1 OR x2 OR NOT x3
+
+B - x1 AND x2 AND NOT x3
+
+C - x1 OR (x2 AND NOT x3)
+
+------------------------------------------------------------------------------
+See notework working photos.
+
+
+x1 OR x2 OR NOT x3 - yes, possible with W0 = -0.5
+x1 AND x2 AND NOT x3 - yes, possible with W0 = -2.5
+
+attempt 1 = A=True, B=True, C = ??, WRONG
+
+refer lecture 'Learning very non-linear features with neural networks' @ 6'10"
+Linear Classifier Cannot represent XOR
+
+attempt #2 - marked as INCORRECT
+A - x1 OR x2 OR NOT x3  :   TRUE with 0.5 + X1 + X2 - X3
+B - x1 AND x2 AND NOT x3 : TRUE with  -1.5 + x1  + X2 - X3
+C - x1 OR (x2 AND NOT x3) : FALSE - cannot obtain a valid result in truth tables
+
+
+------------------------------------------------------------------------------
+none of the above
+1
+point
+------------------------------------------------------------------------------
+3. 
+Which of the the following neural networks can represent the following function? Select all that apply.
+
+(x1 AND x2) OR (NOT x1 AND NOT x2)
+
+Hint: If you are stuck, see https://www.coursera.org/learn/ml-foundations/module/nqC1t/discussions/AAIUurrtEeWGphLhfbPAyQ
+
+1
+point
+4. 
+------------------------------------------------------------------------------
+
+CORRECT ANSWER = 4th answer is correct. (Answers 1,2,3 & 5 are incorrect.)
+
+------------------------------------------------------------------------------
+Which of the following statements is true? (Check all that apply)
+
+A - Features in computer vision act like local detectors.
+
+B - Deep learning has had impact in computer vision, because it’s used to combine all the different hand-created features that already exist.
+
+C - By learning non-linear features, neural networks have allowed us to automatically learn detectors for computer vision.
+
+D - none of the above
+1
+point
+
+------------------------------------------------------------------------------
+Attempt 1 - A, B, C = WRONG
+Attempt 2 - A = WRONG
+
+
+
+
+------------------------------------------------------------------------------
+5. 
+
+If you have lots of images of different types of plankton labeled with their species name, and lots of computational resources, what would you expect to perform better predictions:
+
+CORRECT ANSWER : a deep neural network trained on this data.
+
+No : a simple classifier trained on this data, using deep features as input, which were trained using ImageNet data.
+1
+point
+------------------------------------------------------------------------------
+The availability of a large number of classified images and lots of computational resources will make a better neural network as it is trained on specific data relevant to the intended use.
+
+
+
+------------------------------------------------------------------------------
+6. 
+If you have a few images of different types of plankton labeled with their species name, what would you expect to perform better predictions:
+
+NO : a deep neural network trained on this data.
+
+CORRECT ANSWER : a simple classifier trained on this data, using deep features as input, which were trained using ImageNet data.
+
+------------------------------------------------------------------------------
+explaining : 'a few images' is not enough to train a neural network. The imageNet data has thousands of images enabling recognitiong of  multiple types of objects. by combining imagenet data and deep features trained on imagenet data, then adding classifiers based on the 'few photos' more accurate results will be achieved.
+------------------------------------------------------------------------------
+
+I, Barrie Matthew Taylor, understand that submitting work that isn’t my own may result in permanent failure of this course or deactivation of my Coursera account. Learn more about Coursera’s Honor Code.
+
