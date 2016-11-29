@@ -1,4 +1,4 @@
-﻿Recommending songs
+Recommending songs
 
 4 questions
 1
@@ -16,6 +16,13 @@ Lady GaGa
 1
 point
 ----------------------------------------------------------------------------------------------------------------
+subset dataframe by rows with 'artist' = artist name
+count unique user_id - use set since easier than operating on list.
+Kanye West    = 2522
+Foo Fighters  = 2055
+Taylor Swift  = 3246  [ANSWER = most popular = most unique users]
+Lady GaGa     = 2928
+----------------------------------------------------------------------------------------------------------------
 2. 
 Which of the artists below is the most popular artist, the one with highest total listen_count, in the data set?
 
@@ -29,6 +36,11 @@ Lady GaGa
 1
 point
 ----------------------------------------------------------------------------------------------------------------
+Taylor Swift	19376
+Kings of Leon	0
+Coldplay		35362 [largest]  - coursera says this is wrong.
+Lady GaGa		12224
+----------------------------------------------------------------------------------------------------------------
 3. 
 Which of the artists below is the least popular artist, the one with smallest total listen_count, in the data set?
 
@@ -41,6 +53,12 @@ Kanye West
 The Cool Kids
 1
 point
+----------------------------------------------------------------------------------------------------------------
+William Tabbert				14   [smallest]
+Velvet Underground & Nico	80
+Kanye West					9992
+The Cool Kids				73
+
 ----------------------------------------------------------------------------------------------------------------
 4. 
 Using the first 10,000 unique users only in the test data, use the personalized_model learned on the training data to recommend 1 song to each user. What’s the most recommended song?
